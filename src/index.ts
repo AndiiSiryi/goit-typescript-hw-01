@@ -1,4 +1,4 @@
-import { concatenation } from "./concatenation";
+import { concatenation } from "./concatenation.js";
 
 const button = document.querySelector("button")!;
 const input = document.querySelector("input")!;
@@ -9,3 +9,7 @@ if (button && input) {
   });
 }
 
+function car(arg: number) {
+  return console.log(arg);
+}
+car(5);

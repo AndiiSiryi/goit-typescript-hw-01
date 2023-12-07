@@ -9,7 +9,4 @@ if (button && input) {
   });
 }
 
-function car(arg: number) {
-  return console.log(arg);
-}
-car(5);
+
